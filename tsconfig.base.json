@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@teststorybooklibrary/componentlibrary": [
+        "componentlibrary/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
